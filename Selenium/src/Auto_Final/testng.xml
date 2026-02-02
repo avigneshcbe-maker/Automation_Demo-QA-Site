@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+  <test name="All Tests">
+        <groups>
+            <run>
+                <exclude name="sanity"/>
+                <include name="Smoke"/>
+                <exclude name="Regression"/>
+                <exclude name="Functional"/>
+                
+            </run>
+        </groups>
+        
+        
+        
+    <classes>
+         <class name="Auto_Final.Automation_Demo"/>
+    </classes>
+    
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
+
+   
+     		
+     		
